@@ -1,0 +1,140 @@
+.nav{
+    background-color:#D7D1C0 ;
+}
+
+.textos{
+    color:#E9E7DF ;
+}
+
+#boton{
+    background-color: #68ADCC;
+    color: black;
+    font-weight: bolder;
+}
+
+#tituloNegro{
+    color: black;
+}
+
+.divh1Negro{
+    height: 150px;
+}
+
+#piePagina{
+    background-color:#999999;;
+}
+
+#boton{
+    background-color: #68ADCC;
+    color: black;
+
+    
+}
+
+#boton1{
+    background-color: #68ADCC;
+    color: black;
+    height: 300px;
+    font-weight: 800;
+}
+
+.comentarios .col-lg-4 {
+    margin-bottom: 20px; /* Márgenes entre imágenes en pantallas grandes */
+}
+
+@media (max-width: 600px) {
+    .comentarios .col-lg-4 {
+        margin-bottom: 20px; /* Márgenes entre imágenes en móviles */
+    }
+
+    .comentarios .col-lg-4 img {
+        margin-bottom: 20px; /* Separación adicional para imágenes */
+    }
+}
+
+
+
+
+
+
+/* secciones*/
+#cursos{
+    background-image: url(../img/mas\ chico\ 1.png); /* Reemplaza con la ruta correcta de tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+@media (max-width: 768px) { /* Cambia el tamaño a tu necesidad */
+    #cursos {
+      background-image: url(../img/fondomobile\ 1.png); /* Fondo para pantallas pequeñas (móviles) */
+      background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+      background-repeat: no-repeat; /* Evita que la imagen se repita */
+    }
+  }
+
+.pills{
+    background-color: #737373;
+    /*background-image: url('img/background.png'); /* Reemplaza con la ruta correcta de tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.pildora {
+    width: 600px; /* Ancho del div */
+    height: 40px; /* Altura del div */
+    background-color: #444444; /* Color de fondo */
+    border-radius: 25px; /* La mitad de la altura para crear la píldora */
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 50px;
+    color: white;
+    font-size: 16px;
+}
+
+@media (max-width: 600px) {
+    .pildora {
+        width: 90vw; /* 90% del ancho de la ventana para pantallas más pequeñas */
+        padding-left: 20px; /* Reducir el padding en pantallas pequeñas */
+    }
+
+    .row > div {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 30vh; /* Altura de la ventana gráfica para que los divs se espacien */
+    padding: 20px; /* Espacio alrededor de la container */
+}
+
+#segundatextura{
+    background-image: url(../img/fondo2.png);
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    
+}
+@media (max-width: 600px){
+    .contenedor {
+        height: 40vh; /* Altura de la ventana gráfica para que los divs se espacien */
+        padding: 20px; /* Espacio alrededor de la container */
+    }
+
+    #segundatextura {
+        background-image: url(../img/fondomobile\ 22.png); /* Fondo para pantallas pequeñas (móviles) */
+        background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+      }
+}
+
+.fila{
+    width: 100%; /* Asegura que las filas ocupen todo el ancho de la container */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+}
